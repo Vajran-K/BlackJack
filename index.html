@@ -8,12 +8,17 @@
 </head>
 <body>
     <div>
-        <h1>BlackJack</h1>
+        <h1>FakeJack</h1>
         <p id="message-el">Want to play the game?</p>
         <p id="cards-el">Cards:</p>
         <p id="sum-el">Sum:</p>
+        <p id="dealer-el">Dealer Cards:</p>
+        <p id="dealer-sum-el">Dealer Sum:</p>  
         <button onclick="startGame()">Start</button>
         <button onclick="newCard()">Draw</button>
+        <br>
+        <button class="stand" onclick="stand()">Stand</button>
+        <p id="player-el"></p>
         <script src="index.js"></script>
     </div>
 </body>

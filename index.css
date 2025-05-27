@@ -3,14 +3,14 @@ body {
     background-size: cover;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     color:aliceblue;
     padding: 20px;
 }
 h1 {
     color: #ac8a3f;
     text-align: center;
-    font-size: 120px;
+    font-size: 80px;
     font-family: cursive;
 }
 #message-el{
@@ -22,6 +22,20 @@ button{
     font-family: cursive;
     color: #016f32;
     background-color: #ac8a3f;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+.stand{
+    width: 200px;
+    height: 70px;
+    font-family: cursive;
+    color: #ac8a3f;
+    background-color: #016f32;
     font-size: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
