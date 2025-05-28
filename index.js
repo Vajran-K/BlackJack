@@ -7,6 +7,7 @@ let player = {
 
 let cards = [];
 let sum = 0;
+
 let isBlackJack = false;
 let isAlive = false;
 
