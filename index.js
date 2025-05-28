@@ -80,7 +80,7 @@ function renderGame() {
         player.chips = Math.floor(player.chips);
         playerEl.textContent = player.name + ": $ " + player.chips;
         if(player.chips <= 0){
-            alert("You're out of chips! Refresh the page to add more chips.")
+            alert("You're out of chips! Refresh the page to add more chips to continue playing.")
             isAlive = false
         }
         dealerPlay();
@@ -145,10 +145,15 @@ function stand() {
 }
 
 function cashOut(){
-    player.chips = 0
-    playerEl.textContent = player.name + ": $ " + player.chips;
-    if(player.chips <= 0){
-            alert("You've Cashed Out! Refresh the page to add more chips.")
+    if(player.chips > 0){
+        player.chips = 0
+        playerEl.textContent = player.name + ": $ " + player.chips;
+        if(player.chips <= 0){
+            alert("You've Cashed Out! Refresh the page to add more chips and continue playing.")
             isAlive = false
         }
+    }else{
+        alert("You're out of chips!.")
+        isAlive = false
+    }
 }
