@@ -144,3 +144,11 @@ function stand() {
     }
 }
 
+function cashOut(){
+    player.chips = 0
+    playerEl.textContent = player.name + ": $ " + player.chips;
+    if(player.chips <= 0){
+            alert("You've Cashed Out! Refresh the page to add more chips.")
+            isAlive = false
+        }
+}

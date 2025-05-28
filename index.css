@@ -44,3 +44,18 @@ button{
     border-radius: 2px;
     margin-bottom: 4px;
 }
+
+.cashout{
+     width: 200px;
+    height: 70px;
+    font-family: cursive;
+    color: #f70000;
+    background-color: #1b5928;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
