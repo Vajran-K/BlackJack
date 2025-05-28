@@ -18,11 +18,11 @@ h1 {
 }
 button{
     width: 200px;
-    height: 70px;
+    height: 50px;
     font-family: cursive;
     color: #016f32;
     background-color: #ac8a3f;
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
@@ -32,11 +32,11 @@ button{
 }
 .stand{
     width: 200px;
-    height: 70px;
+    height: 50px;
     font-family: cursive;
     color: #ac8a3f;
     background-color: #ee0909;
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
@@ -47,15 +47,23 @@ button{
 
 .cashout{
      width: 200px;
-    height: 70px;
+    height: 40px;
     font-family: cursive;
     color: #f70000;
     background-color: #1b5928;
-    font-size: 50px;
+    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
     border: none;
     border-radius: 2px;
     margin-bottom: 4px;
+}
+
+#player-el{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color:aliceblue;
+    padding: 20px;
 }
